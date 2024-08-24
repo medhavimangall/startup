@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body{
+      background-color:gray;
+    }
+    .navbar {
+      display: flex;
+      background-color: purple;
+      
+    }
+    .rightnav{
+      display: flex;
+      width: 90%;
+      justify-content: flex-end;
+      align-items: center;
+      
+    }
+    .home{
+      margin-right: 60px;
+    }
+    .About{
+
+      margin-right: 50px;
+
+    }
+    .maincontent{
+      display: flex;
+    }
+    .button{
+      border-radius: 20px;
+      background-color: purple;
+      height:40px;
+      width: 90px;
+    }
+    .text{
+      flex:3
+    }
+    .pic{
+      flex:1;
+      justify-content: flex-end;
+      margin-top: 10px;
+  
+    }
+    .dogpic{
+      width: 350px;
+      height: 200px;
+      justify-content: flex-end;
+    }
+    .contactform{
+      height: 200px;
+      width: 80%;
+      
+    .contactform__name, .contactform__email{
+      width: 80%;
+      height: 30px;
+      border: 2px solid green;
+      border-radius: 20px;
+      font-size: 16px;
+    }
+    .contactform__number{
+      width: 40%;
+      height: 30px;
+      border: 2px solid green;
+      border-radius: 20px;
+      font-size: 16px;
+    }
+    .contactform__city{
+      width: 39%;
+      height: 30px;
+      border: 2px solid green;
+      border-radius: 20px;
+      font-size: 16px;
+    }
+    .contactform__btn{
+      display: flex;
+      justify-content: center;
+      margin-left: 38%;
+      border: 2px solid green;
+      border-radius: 50px;
+      font-size: 16px;
+      height: 40px;
+      width: 100px;
+      background-color:purple;
+    }
+
+    input{
+      padding-left: 10px;
+    }
+
+    
+  </style>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <div><h1 style="margin-left: 10px; font-size: 30px;">Startup</h1></div>
+        <div class="rightnav">
+          <div class="home" style="font-size: 20px;"><a
+            href="https://r.search.yahoo.com/_ylt=AwrKAwbtc8lmVwQABwS7HAx.;_ylu=Y29sbwNzZzMEcG9zAzIEdnRpZAMEc2VjA3Ny/RV=2/RE=1725688045/RO=10/RU=https%3a%2f%2fhome.delhi.gov.in%2f/RK=2/RS=pRIyrxwnhUlF_cC0fdPbYC42luM-"
+            >Home</a
+          >
+        </div>
+        <div class="About" style="font-size: 20px;">
+          <a
+            href="https://r.search.yahoo.com/_ylt=AwrKAwYpdMlmQAQADwC7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1725688106/RO=10/RU=https%3a%2f%2fwww.shopify.com%2fblog%2fhow-to-write-an-about-us-page/RK=2/RS=E8ZyjgclkC2st2.ORLnlKsPwwOs-"
+            >About US</a
+          ></div>
+
+          <div class="Contact" style="font-size: 20px;">
+            <a
+              href="https://r.search.yahoo.com/_ylt=AwrKAwYpdMlmQAQADwC7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1725688106/RO=10/RU=https%3a%2f%2fwww.shopify.com%2fblog%2fhow-to-write-an-about-us-page/RK=2/RS=E8ZyjgclkC2st2.ORLnlKsPwwOs-"
+              >Contact</a
+            >
+          </div>
+          </div>
+        </div>
+        </div>
+      </nav>
+    </div>
+    <main class="maincontent">
+      <div class="text">
+        <h1>Startup Landing Page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate accusamus, architecto ipsum facilis eos placeat ut sunt repellat dolore consectetur soluta ipsam maiores cumque sint illo cum aspernatur ex ratione ullam quae qui! Eos labore error eius ea itaque aut similique aspernatur fugiat fugit odit aliquam delectus nostrum, repudiandae minima! Itaque, eius debitis? Dolor neque tempore obcaecati optio, harum saepe quae expedita aut modi eos non fuga explicabo accusamus doloremque exercitationem reprehenderit et quam quas dolorem temporibus eveniet excepturi impedit. Dolor iusto saepe doloribus reprehenderit dolore cumque nam, asperiores iure minima ipsa voluptatem eius quod, accusantium animi pariatur. Quidem, deserunt.</p>
+        <button class="button">Button</button>
+      </div>
+      <div class="pic">
+        <img src="dog image.jpg" alt="dogpic" class="dogpic">
+      </div>
+    </main>
+    <h1>Contact US</h1>
+    <form class="contactform">
+      <input type="text" class="contactform__name" placeholder="Enter Name">
+      <br>
+      <br>
+      <input type="email" class="contactform__email" placeholder="Enter Email">
+      <br>
+      <br>
+      <input type="number" class="contactform__number" placeholder="Enter Contact Number">
+      <input type="text" class="contactform__city" placeholder="Enter City">
+      <br>
+      <br>
+      <button type="submit" class="contactform__btn">Submit Form</button>
+
+    </form>
+    <table style="border: solid 4px black; width: 70%; margin-top: 10px">
+      <thead>
+        <th>
+          <tr>
+            <td style="border-bottom: 2px solid black">SNO</td>
+            <td style="border-bottom: 2px solid black">Startup Name</td>
+            <td style="border-bottom: 2px solid black">Startup Description</td>
+          </tr>
+        </th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>WowIndia</td>
+          <td>Skin care brand</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Burger King</td>
+          <td>Burgers</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>AccioJob</td>
+          <td>Full Stack Coaching</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>WowMomos</td>
+          <td>Fast Food Chain</td>
+        </tr>
+        <tr style="background-color: purple;">
+          <td>00.</td>
+          <td>Final Footer</td>
+          <td>Final</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
